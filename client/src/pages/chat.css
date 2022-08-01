@@ -1,0 +1,34 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+.navbar{
+    gap: 3.5rem;
+}
+.navbar svg{
+    font-size: 3.5rem;
+}
+.chats-container{
+    display: grid;
+    width: 90vw;
+    height: 85vh;
+    border-radius: 2.5rem;
+    grid-template-columns: 1fr 2fr;
+    overflow: hidden;
+}
+.chats-container > div:nth-child(1){
+    background-color: rgb(207, 205, 202);
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+.chats-container > div:nth-child(2){
+    background-color: rgb(253, 236, 188);
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
